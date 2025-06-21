@@ -1,17 +1,21 @@
-<<<<<<< HEAD
-# React + Vite
+# 📰 News Dashboard Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Name:** Sankalp Gupta  
 
-Currently, two official plugins are available:
+A React + Material UI-based news dashboard that fetches top headlines, supports filtering, CSV export, admin-only views, theme toggling, and data visualization.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔧 Features:
+- Light/Dark theme toggle
+- Keyword & date range filtering
+- Author-wise article charts
+- CSV export of news data
+- Admin-specific routing
+- Responsive layout
+- Authentication & protected routes
 
-## Expanding the ESLint configuration
+📁 Refer to the attached PDF (`Project Information and Snapshots.pdf`) for a detailed walkthrough of all features and setup steps.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# NEWS_DASHBOARD_PROJECT
-A responsive and dynamic news dashboard built with React, featuring real-time news cards, interactive filters, source-based navigation, and an intuitive UI.
->>>>>>> c9bbd29728f536fa0a352afd09f23c20c5a01528
+🚀 To run locally:
+```bash
+npm install
+npm run dev
